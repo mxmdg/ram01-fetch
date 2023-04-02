@@ -24,9 +24,9 @@
 
 ## `File system`
 
-File system es una forma de estructurar nuestro proyecto. La verdad es que hay muchísimas formas y dependerá de cada uno de ustedes de cómo se sienta más cómodo. Además, será muy relativo y estará sujeto acorde al proyecto que se esté por iniciar.
+File system o sistema de archivo será la forma que vamos estructurar nuestro proyecto. La verdad es que hay muchísimas formas y dependerá de cada uno de ustedes de cómo se sienta más cómodo. Además, será muy relativo y estará sujeto acorde al proyecto que se esté por iniciar.
 
-La razón principal de hacer este sistema es porque nuestras aplicaciones comienzan a crecer con archivos y a medida que lo hace, uno comienza sentirse en un laberinto. Nos irá costando más encontrar nuestros códigos, inclusive hasta entenderlo, porque convengamos que estamos iniciando con todos conocimientos nuevos, e ir leyendo todo el código es posible que lleguen cansados al encontrar el que buscan.
+La razón principal de hacer un buen sistema de archivos es porque nuestras aplicaciones comenzaran a crecer con el tiempo y a medida que lo hace, será más complicado ir encontrando partes en nuestros códigos que busquemos cambiar, optimizar o bien quitar.
 
 La aplicación a medida que crece nos obligará ir componetizando para poder reutilizar estos componentes y también limpiar nuestro código (que sea más legible y cómodo a la vista). Esto implica un aumento de archivos, tanto de componentes como de funciones que consumen los mismos: hooks, imágenes, páginas, etc.
 
@@ -50,7 +50,7 @@ Estos son los archivos que cree. Pueden notar que mi página creada está ya iny
 ## `Archivos de barril`
 
 Hay una forma muy peculiar que me agrada muchísimo ya que puedo leer mis importaciones con menos esfuerzo para la vista y así entender mejor de qué va el componente.
-Obviamente puede que algunos les guste y a otros no, pero bueno, no quiero pasarlo por alto ya que si le van a dar importancia al `"índice" de las importaciones, se verán mucho más limpias las mismas y será más fácil de entender.
+Obviamente puede que algunos les guste y a otros no, pero bueno, no quiero pasarlo por alto ya que si le van a dar importancia al "índice" de las importaciones, se verán mucho más limpias las mismas y será más fácil de entender.
 
 Voy a crear un nuevo archivo dentro de mi directorio `ram`, al mismo nivel de mis directorios `pages` y `components`. Este se va a llamar `index.js` y será mi archivo barril. Dentro de este archivo yo voy a exportar todo lo que esté dentro de los componentes de la siguiente forma:
 
@@ -95,7 +95,7 @@ Listo, ahora mi `AppRAM` está importando a mi `RAMPage` de forma más prolija. 
 
 ## `homework`
 
-Con todo el conocimiento adquirido deberán consumir la api de Rick And Morty. Yo dejé un arreglo temporal para más o menos orientarlos. Ustedes deberán quitar ese arreglo temporal y recorrer todos los personajes de la Api.
+Con todo el conocimiento adquirido en la clase deberán consumir la api de Rick And Morty. Yo dejé un arreglo temporal para más o menos orientarlos. Ustedes deberán quitar ese arreglo temporal y recorrer todos los personajes de la Api.
 
 ![Context](./img/img-6.png)
 
@@ -128,5 +128,3 @@ Bonus: Pueden también implementar el loading.
 ---
 
 ---
-
-La resolución de este ejercicio será brindada el día después de la próxima clase, junto con el nuevo desafío.
